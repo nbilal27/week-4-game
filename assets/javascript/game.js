@@ -23,11 +23,11 @@ for (var i = 0; i < imageOptions.length; i++) {
 	$("#choices").append(imageChoice);
 }
 // Create a function that gives the images functionality when clicked. 
-$(document).on("click", ".crystalOptions", function() {
+$(document).on("click", function() {
 	// Take the value of .this and put it into count.
-	var imageValue = ($(this).data("crystalValue", "data-crystalValue"));
-	console.log(imageValue);
-	//Create if/else statements 
+	var imageValue = $(this).data("crystalValue")
 
-});
+	console.log(imageValue)
+	//Create if/else statements 
+})
 // When target number reached game restarts. 
