@@ -12,4 +12,18 @@
     padding: 25px;
     margin: 25px;
     margin-left: 0px;
+}
+
+.panel2 {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    margin-left: 0px;
+    height: 250px;
+}
+
+.display {
+    font-size: 12px;
+}
 
